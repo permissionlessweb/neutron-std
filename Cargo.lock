@@ -331,7 +331,6 @@ checksum = "c2459377285ad874054d797f3ccebf984978aa39129f6eafde5cdc8315b612f8"
 [[package]]
 name = "cosmos-sdk-proto"
 version = "0.28.0"
-source = "git+https://github.com/permissionlessweb/cosmos-rust?branch=main#2017200e4180dec8ed19fdc0cd633279d6b3c6f9"
 dependencies = [
  "bytes",
  "http-body-util",
@@ -344,12 +343,10 @@ dependencies = [
 [[package]]
 name = "cosmwasm-core"
 version = "3.0.3-dev"
-source = "git+https://github.com/permissionlessweb/cosmwasm?branch=mvp#d5586deb95247416a6eaf312c8aa3e283e1d15ca"
 
 [[package]]
 name = "cosmwasm-crypto"
 version = "3.0.3-dev"
-source = "git+https://github.com/permissionlessweb/cosmwasm?branch=mvp#d5586deb95247416a6eaf312c8aa3e283e1d15ca"
 dependencies = [
  "ark-bls12-381",
  "ark-ec",
@@ -373,7 +370,6 @@ dependencies = [
 [[package]]
 name = "cosmwasm-derive"
 version = "3.0.3-dev"
-source = "git+https://github.com/permissionlessweb/cosmwasm?branch=mvp#d5586deb95247416a6eaf312c8aa3e283e1d15ca"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -383,7 +379,6 @@ dependencies = [
 [[package]]
 name = "cosmwasm-schema"
 version = "3.0.3-dev"
-source = "git+https://github.com/permissionlessweb/cosmwasm?branch=mvp#d5586deb95247416a6eaf312c8aa3e283e1d15ca"
 dependencies = [
  "cosmwasm-schema-derive",
  "cw-schema",
@@ -396,7 +391,6 @@ dependencies = [
 [[package]]
 name = "cosmwasm-schema-derive"
 version = "3.0.3-dev"
-source = "git+https://github.com/permissionlessweb/cosmwasm?branch=mvp#d5586deb95247416a6eaf312c8aa3e283e1d15ca"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -406,7 +400,6 @@ dependencies = [
 [[package]]
 name = "cosmwasm-std"
 version = "3.0.3-dev"
-source = "git+https://github.com/permissionlessweb/cosmwasm?branch=mvp#d5586deb95247416a6eaf312c8aa3e283e1d15ca"
 dependencies = [
  "base64 0.22.1",
  "bech32 0.11.1",
@@ -513,7 +506,6 @@ dependencies = [
 [[package]]
 name = "cw-schema"
 version = "3.0.3-dev"
-source = "git+https://github.com/permissionlessweb/cosmwasm?branch=mvp#d5586deb95247416a6eaf312c8aa3e283e1d15ca"
 dependencies = [
  "cw-schema-derive",
  "indexmap",
@@ -527,7 +519,6 @@ dependencies = [
 [[package]]
 name = "cw-schema-derive"
 version = "3.0.3-dev"
-source = "git+https://github.com/permissionlessweb/cosmwasm?branch=mvp#d5586deb95247416a6eaf312c8aa3e283e1d15ca"
 dependencies = [
  "heck 0.5.0",
  "itertools 0.13.0",
@@ -760,9 +751,9 @@ dependencies = [
 
 [[package]]
 name = "fastrand"
-version = "2.4.0"
+version = "2.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a043dc74da1e37d6afe657061213aa6f425f855399a11d3463c6ecccc4dfda1f"
+checksum = "9f1f227452a390804cdb637b74a86990f2a7d7ba4b7d5693aac9b4dd6defd8d6"
 
 [[package]]
 name = "ff"
@@ -2115,7 +2106,6 @@ dependencies = [
 [[package]]
 name = "tendermint-proto"
 version = "0.40.4"
-source = "git+https://github.com/permissionlessweb/tendermint-rs?branch=main#84af40465b4b393d66f0761d90b2863ff0f7191a"
 dependencies = [
  "bytes",
  "flex-error",
