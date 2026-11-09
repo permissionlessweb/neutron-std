@@ -5,8 +5,8 @@ resolver = "2"
 [workspace.dependencies]
 base64 = "0.21.7"
 bech32 = "0.9.1"
-cosmwasm-schema = { version = "=4.0.0-zk" }
-cosmwasm-std = { version = "=4.0.0-zk" }
+cosmwasm-schema = { version = "=4.1.0" }
+cosmwasm-std = { version = "=4.1.0" }
 cw-storage-plus = { version = "3.0.1" }
 cw2 = { version = "3.0.0" }
 hex = "0.4.3"
@@ -36,8 +36,9 @@ overflow-checks = true
 
 [patch.crates-io]
 
-cosmos-sdk-proto = { path = "../cosmos-rust/cosmos-sdk-proto" }
-cosmwasm-schema = { path = "../cosmwasm/packages/schema" }
-cosmwasm-std = { path = "../cosmwasm/packages/std" }
-tendermint-proto = { path = "../tendermint-rs/proto" }
-
+cosmos-sdk-proto = { git = "https://github.com/permissionlessweb/cosmos-rust", rev = "877ee79b693760f7ffa97ef542f5788c26f537dd" }
+tendermint-proto = { git = "https://github.com/permissionlessweb/tendermint-rs", rev = "c732393410cefadb53da98836a7620ef1a1ef8bb" }
+cosmwasm-schema = { git = "https://github.com/permissionlessweb/cosmwasm", rev = "e20646e2d9a9c4f93e993eb0656afa795f6e387a" }
+cosmwasm-std = { git = "https://github.com/permissionlessweb/cosmwasm", rev = "e20646e2d9a9c4f93e993eb0656afa795f6e387a" }
+cw-storage-plus = { git = "https://github.com/permissionlessweb/cw-storage-plus", rev = "b303f445113c95427b57fc825bc033fdf3e6fee0" }
+cw2 = { git = "https://github.com/permissionlessweb/cw-minus", rev = "14194672e846a56e5a37a4a3b449e375f6f2b496" }
